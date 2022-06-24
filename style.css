@@ -1,0 +1,108 @@
+header {
+    height: 120px;
+}
+
+h1 {
+    font-size: 80px;
+    width: fit-content;
+    margin: auto;
+}
+
+#hamburger {
+    height: 60px;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
+#hamburger:hover{
+    height: 80px;
+    cursor: pointer;
+}
+
+.navMenuHide{
+    position: fixed;
+    top: 100px;
+    left:-250px;
+    transition: all 1000ms cubic-bezier(1,.03,0,1.52);
+    
+}
+.navMenuShow {
+    transform: translate(250px) rotate(360deg);
+}
+
+.kleurkeuzemenu {
+    list-style-type: none;
+    width: 150px;
+    padding: 5px 20px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+#home {
+    background-color: white;
+}
+#rood {
+    background-color: red;
+    color: white;
+}
+#blauw {
+    background-color: blue;
+    color: white;
+}
+#geel {
+    background-color: yellow;
+}
+#groen {
+    background-color: green;
+    color: white;
+}
+#paars {
+    background-color: purple;
+    color: white;
+}
+#oranje {
+    background-color: orange;
+}
+.home {
+    background-color: white;
+}
+.rood {
+    background-color: red;
+}
+.blauw {
+    background-color: blue;
+}
+.geel {
+    background-color: yellow;
+}
+.groen {
+    background-color: green;
+}
+.paars {
+    background-color: purple;
+}
+.oranje {
+    background-color: orange;
+}
+
+#kleurKeuzeTekst{
+    width: fit-content;
+    margin: auto;
+    font-size: 2.5rem;
+}
+
+#radioMenu{
+    border: 1px solid black;
+    background-color: rgb(180, 184, 194);
+    width: fit-content;
+    margin:auto;
+    position: relative;
+    bottom: -100px;
+}
+
+footer {
+    background-color: aqua;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    
+}
